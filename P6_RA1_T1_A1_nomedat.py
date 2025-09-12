@@ -1,0 +1,1 @@
+print ("Nom: Mohamed Mendou Edat: 18")
