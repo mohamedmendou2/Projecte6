@@ -2,7 +2,7 @@
 # Data: 21/10/2025
 # Versio: 1
 #
-# Descripció: Imprimeix tots els numeros parells des de el 0 fins al numero introduit per el usuari 
+# Descripció: Mostra tots els numeros primers de hasta el numero introduit per el usuari
 # Instruccions de entrada: Introduir numero enter
 
 try:
@@ -30,4 +30,5 @@ try:
                 print(num, end=" ")
             
 except ValueError:
+
     print("Error: Has d'introduir un nombre enter vàlid.")
