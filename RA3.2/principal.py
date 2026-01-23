@@ -24,7 +24,7 @@ print(estudiant1.consultar_nota())
 from termostat import termostat
 
 termostat1 = termostat(20)
-print(termostat1.temperatura)
+print(termostat1.get_temperatura())
 
 # Contrasenya segura
 from contrasenya import usuari
@@ -44,10 +44,10 @@ print("Verificació amb antiga (esperat False):", usuari1.verificar_contrasenya(
 from sensor import sensor
 
 sensor1 = sensor(20)
-print(sensor1.valor)
+print(sensor1.get_valor())
 
-sensor1.valor = 80
-print(sensor1.valor)
+sensor1.set_valor(80)
+print(sensor1.get_valor())
 
 # Producte amb preu controlat
 from producte import producte
@@ -87,5 +87,6 @@ print(joc1.puntuacio())
 # Email d’un usuari
 from gmail import compteusuari
 
-usuari1 = compteusuari("nallende@iesjulioantonio.cat")
+usuari1 = compteusuari("mmendou@iesjulioantonio.cat")
+
 print(usuari1.email)
